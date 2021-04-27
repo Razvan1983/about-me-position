@@ -1,0 +1,150 @@
+
+/* Resetare CSS */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 100%;
+}
+
+
+
+.profile-card {
+  width: 480px;
+  height: 95%;
+  max-width: calc(100vw - 10px);
+  background: hsla(60, 100%, 50%, .4)
+   
+    
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 90vh;
+  margin-top: 60px;
+}
+
+.head, .links {
+  text-align: center;
+}
+
+.head, .content {
+  width: 100%;
+  margin: 0 auto;
+}
+
+
+
+.profile-image {
+  margin-top: -60px;
+}
+
+ul {
+  list-style-type: none;
+}
+
+li {
+  display: inline;
+}
+
+.head, .about {
+  margin-bottom: 10%;
+    
+}
+
+.content {
+  padding: 5% 10%;
+  border-top: 1px solid hsla(0, 0%, 30%, .8);
+  
+}
+
+body {
+  background-image: url(assets/accessible.jpg);
+  background-size: cover;
+  
+  
+}
+
+.profile-card {
+  background-color: hsla(0, 0%, 100%, .5);
+  border-radius: 4px;
+  box-shadow: hsla(0, 0%, 0%, .8) 10px 10px 80px;
+  
+  
+}
+
+img {
+  padding: 1px;
+  background-color: #666;
+  transition: all 0.5s ease-in-out;
+  filter: grayscale(50%);
+  width: 80%;
+  border-radius: 10px;
+  margin-top: 60px;
+}
+
+img:hover {
+  transform: scaleX(1.1);
+  filter: grayscale(10%);
+   animation: rotation 2s;
+}
+
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(359deg);
+  }
+}
+
+a>i:hover {
+  transform: scale(1.5);
+}
+
+.container {
+  text-align: center;
+  color: white;
+  font-family:cursive; 
+  position: absolute;
+  top: 10px;
+  font-size: 25px;
+ 
+}
+
+.header{
+  position: relative;
+ 
+}
+
+.logo{
+  border: 1px solid rgb(120, 120, 120);
+  
+}
+
+ .down{
+  position: absolute;
+   height: 30px;
+  bottom: -10px;
+   color: antiquewhite;
+  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
