@@ -11,7 +11,7 @@
 
 
 .profile-card {
-  width: 480px;
+  width: 30rem;
   height: 95%;
   max-width: calc(100vw - 10px);
   background: hsla(60, 100%, 50%, .4)
@@ -23,8 +23,14 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 90vh;
-  margin-top: 60px;
+  height: 110vh;
+  margin-top: 4.375rem;
+  top: 1.25rem;
+  font-family: Merriweather, 'Times New Roman', serif;
+}
+
+h1, h2{
+  font-family: 'Open Sans', Arial, sans-serif;
 }
 
 .head, .links {
@@ -39,7 +45,9 @@ body {
 
 
 .profile-image {
-  margin-top: -60px;
+  margin-top: -3.75rem;
+  bottom: -1.25rem;
+  padding: 2.1875rem;
 }
 
 ul {
@@ -48,6 +56,11 @@ ul {
 
 li {
   display: inline;
+  
+}
+
+i{
+  height: 5px;
 }
 
 .head, .about {
@@ -82,8 +95,8 @@ img {
   transition: all 0.5s ease-in-out;
   filter: grayscale(50%);
   width: 80%;
-  border-radius: 10px;
-  margin-top: 60px;
+  border-radius: 0.625rem;
+  margin-top: 3.75rem;
 }
 
 img:hover {
@@ -110,8 +123,8 @@ a>i:hover {
   color: white;
   font-family:cursive; 
   position: absolute;
-  top: 10px;
-  font-size: 25px;
+  top: 0.625rem;
+  font-size: 1.5625rem;
  
 }
 
@@ -127,14 +140,32 @@ a>i:hover {
 
  .down{
   position: absolute;
-   height: 30px;
-  bottom: -10px;
+   height: 1.875rem;
+  bottom: -6rem;
    color: antiquewhite;
   
 }
 
+.button {
+	display: inline-block;
+	border: 1px solid black;
+	color: black;
+	border-radius: 0.625rem;
+	padding-right: 0.3125rem;
+	padding-left: 0.3125rem;
+	margin: 0.3125rem;
+	width: 6.25rem;
+	font-family: 'Open Sans', sans-serif;
+  top: 0.625rem;
+}
 
+.button:hover {
+	border: 1px solid blue;
+}
 
+.footer{
+  color: black;
+}
 
 
 
